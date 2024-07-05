@@ -59,13 +59,16 @@
                             <h5 class="text-muted">Origin :</h5>
                             <div class="form-group">
                                 <label for="">Provinsi</label>
-                                <select name="provinsi_pengirim" id="" class="form-control">
+                                <select name="origin_province" id="" class="form-control">
                                     <option value="#">Pilih Provinsi</option>
+                                    @foreach ($province as $key => $value)
+                                        <option value="{{ $key }}">{{ $value }}</option>
+                                    @endforeach
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="">Kota/Kabupaten</label>
-                                <select name="kokab_pengirim" id="" class="form-control">
+                                <select name="origin_city" id="" class="form-control">
                                     <option value="#">Pilih Kota/Kabupaten</option>
                                 </select>
                             </div>
