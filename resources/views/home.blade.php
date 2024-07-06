@@ -75,7 +75,7 @@
                             <h5 class="text-muted">Destination :</h5>
                             <div class="form-group">
                                 <label for="">Kota/Kabupaten</label>
-                                <select name="kokab_pengirim" id="" class="form-control">
+                                <select name="destination_city" id="" class="form-control">
                                     <option value="#">Pilih Kota/Kabupaten</option>
                                 </select>
                             </div>
